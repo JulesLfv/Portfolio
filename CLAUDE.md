@@ -62,3 +62,10 @@ The `src/config.ts` exports a `siteConfig` object with these sections:
 - projects: array of {name, description, link, skills}
 - experience: array of {company, title, dateRange, bullets}
 - education: array of {school, degree, dateRange, achievements}
+
+## Configuration user
+
+- Speak and work in french
+- Linkedin: https://www.linkedin.com/in/jules-lef%C3%A8vre/
+- Au-delà de la computer vision et du deep learning, y a-t-il des domaines d'application qui t'attirent particulièrement (santé/médical, véhicules autonomes, etc.) ? La data science, le médical et les véhicules autonomes et l'IoT
+-  je suis un étudiant en Master 2 Informatique, parcours Intelligence Artificielle à l'URCA (Université de Reims Champagne-Ardenne) Stage actuel : Reconstruction 3D du corps humain et analyse morphométrique au laboratoire CReSTIC Stage M1 : Prédiction de trafic routier avec réseaux LSTM Compétences clés : PyTorch, Computer Vision (YOLOv8, segmentation), Deep Learning (CNN, LSTM), Python
