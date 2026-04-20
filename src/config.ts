@@ -6,6 +6,7 @@ export const siteConfig = {
   social: {
     email: "contact@juleslefevre.fr",
     linkedin: "https://www.linkedin.com/in/jules-lef%C3%A8vre/",
+    github: "https://github.com/JulesLfv",
   },
   aboutMe:
     "Ingénieur en Intelligence Artificielle et Data, je me passionne pour le deep learning, la computer vision et leurs applications dans les domaines médicaux, les véhicules autonomes et l'IoT. Au travers de plusieurs stages de recherche en France et à l'étranger (Reims, Madrid), j'ai développé une expertise pratique allant de la reconstruction 3D de corps humain à la prévision de trafic urbain, en passant par les systèmes embarqués connectés. Je cherche à mettre ces compétences au service de projets à fort impact.",
