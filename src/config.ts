@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Jules Lefèvre",
   title: "Ingénieur en Intelligence Artificielle et Data",
-  description: "Portfolio de Jules Lefèvre — Ingénieur en Intelligence Artificielle et Data",
+  description: "Portfolio de Jules Lefèvre - Ingénieur en Intelligence Artificielle et Data",
   accentColor: "#2563EB",
   social: {
     email: "contact@juleslefevre.fr",
@@ -9,7 +9,7 @@ export const siteConfig = {
     github: "https://github.com/JulesLfv",
   },
   aboutMe:
-    "Ingénieur en Intelligence Artificielle et Data, je me passionne pour le deep learning, la computer vision et leurs applications dans les domaines médicaux, les véhicules autonomes et l'IoT. Au travers de plusieurs stages de recherche en France et à l'étranger (Reims, Madrid), j'ai développé une expertise pratique allant de la reconstruction 3D de corps humain à la prévision de trafic urbain, en passant par les systèmes embarqués connectés. Je cherche à mettre ces compétences au service de projets à fort impact.",
+    "J'ai choisi l'IA parce que c'est un domaine qui bouge vite. Ce qui me motive, c'est la curiosité : comprendre comment les choses fonctionnent, bidouiller, casser, reconstruire. Même quand c'est difficile. Ce goût pour l'exploration m'a amené à travailler sur des sujets très variés : de la reconstruction 3D du corps humain à la prévision de trafic, en passant par des capteurs LoRaWAN ou un middleware IoT à Madrid. Je ne cherche pas à me spécialiser trop vite, je crois que la vraie valeur vient de savoir relier des domaines que d'autres gardent séparés.",
   skills: [
     "Python",
     "PyTorch",
@@ -43,7 +43,7 @@ export const siteConfig = {
       skills: ["Python", "PyTorch", "Machine Learning", "Data Science"],
     },
     {
-      name: "Middleware Azure IoT pour FreeRTOS — scénarios V2X",
+      name: "Middleware Azure IoT pour FreeRTOS - scénarios V2X",
       description:
         "Implémentation d'un middleware Azure IoT pour FreeRTOS ciblant des scénarios V2X (télémesure cloud-vers-appareil). Prototypage de flux de données sécurisés MQTT/TLS et documentation pour des démos reproductibles.",
       link: "",
@@ -57,7 +57,7 @@ export const siteConfig = {
       skills: ["C", "Arduino", "LoRaWAN", "IoT / Embarqué"],
     },
     {
-      name: "CBIR — Recherche d'images par similarité",
+      name: "CBIR - Recherche d'images par similarité",
       description:
         "Préparation d'une base d'images, extraction de caractéristiques et implémentation de la recherche par similarité pour la recherche d'images basée sur le contenu (Content-Based Image Retrieval).",
       link: "",
@@ -66,7 +66,7 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Laboratoire CReSTIC — I.U.T Reims-Châlons-Charleville",
+      company: "Laboratoire CReSTIC - I.U.T Reims-Châlons-Charleville",
       title: "Stagiaire de Recherche",
       dateRange: "Mars 2026 - Présent",
       bullets: [
@@ -75,7 +75,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Laboratoire Lab-I* — Université de Reims Champagne-Ardenne",
+      company: "Laboratoire Lab-I* - Université de Reims Champagne-Ardenne",
       title: "Stagiaire de Recherche",
       dateRange: "Avril 2025 - Juillet 2025",
       bullets: [
@@ -85,7 +85,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "B105 Lab — Universidad Politécnica de Madrid",
+      company: "B105 Lab - Universidad Politécnica de Madrid",
       title: "Stagiaire de Recherche",
       dateRange: "Avril 2024 - Juin 2024",
       bullets: [
@@ -104,7 +104,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Keenton SAS — Paris",
+      company: "Keenton SAS - Paris",
       title: "Stagiaire IT",
       dateRange: "Avril 2022 - Mai 2022",
       bullets: [
@@ -116,7 +116,7 @@ export const siteConfig = {
   education: [
     {
       school: "Université de Reims Champagne-Ardenne",
-      degree: "Master Informatique — spécialité Intelligence Artificielle",
+      degree: "Master Informatique - spécialité Intelligence Artificielle",
       dateRange: "Sept. 2024 - Présent",
       achievements: [
         "Implémentation de Word2Vec from scratch (CBOW/Skip-gram) avec visualisation des embeddings.",
@@ -128,10 +128,21 @@ export const siteConfig = {
     },
     {
       school: "Université de Reims Champagne-Ardenne",
-      degree: "Licence Informatique — Cursus Master en Ingénierie (CMI)",
+      degree: "Licence Informatique",
       dateRange: "Sept. 2021 - Juin 2024",
       achievements: [
         "Mise en œuvre d'un flux de travail client-serveur distribué pour la vente de cuisines (Java/PHP, TCP/UDP/HTTP).",
+        "Apprentissage de la programmation bas-niveau en C (Linux) et de la programmation orientée objet en Java.",
+        "Algorithmique : implémentation de structures de données (listes, piles, files) et d'algorithmes de recherche sur les arbres et graphes.",
+      ],
+    },
+    {
+      school: "Université de Reims Champagne-Ardenne",
+      degree: "Cursus Master en Ingénierie (CMI) - en parallèle sur 5 ans",
+      dateRange: "Sept. 2021 - Présent",
+      achievements: [
+        "Cours complémentaires : Mathématiques en Python, Communication scientifique.",
+        "Interview d'un professeur d'université dans le cadre du module communication.",
         "Conception du modèle de données et de la base de données pour un laboratoire de recherche.",
         "Animation d'une session pédagogique sur l'IA en biologie pour des élèves de primaire.",
         "Conception d'une application collaborative pour réduire le gaspillage alimentaire.",

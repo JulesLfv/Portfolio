@@ -23,7 +23,49 @@ import { siteConfig } from "../config";
           {siteConfig.aboutMe}
         </p>
 
-        <div class="pt-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          <div class="flex gap-4 p-4 rounded-xl bg-gray-50 border border-gray-100">
+            <div class="shrink-0 mt-0.5" style={`color: ${siteConfig.accentColor}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 9a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M6 20a6 6 0 1 1 12 0"/><path d="M3 10a7 7 0 1 0 14 0a7 7 0 0 0 -14 0"/><path d="M12 12v4"/><path d="M12 19v.01"/></svg>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-800">Curiosité & Persévérance</p>
+              <p class="text-sm text-gray-500 mt-1">J'aime comprendre en profondeur, même quand c'est difficile. Je ne lâche pas un problème tant qu'il n'est pas résolu.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 p-4 rounded-xl bg-gray-50 border border-gray-100">
+            <div class="shrink-0 mt-0.5" style={`color: ${siteConfig.accentColor}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 18a6 6 0 1 0 0 -12a6 6 0 0 0 0 12"/><path d="M12 3v3"/><path d="M12 18v3"/><path d="M3 12h3"/><path d="M18 12h3"/></svg>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-800">Adaptabilité</p>
+              <p class="text-sm text-gray-500 mt-1">Embarqué, cloud, ML, médical, IoT — je passe d'un domaine à l'autre avec aisance. La variété est une force, pas une dispersion.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 p-4 rounded-xl bg-gray-50 border border-gray-100">
+            <div class="shrink-0 mt-0.5" style={`color: ${siteConfig.accentColor}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 9h8"/><path d="M8 13h6"/><path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z"/></svg>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-800">Communication & Pédagogie</p>
+              <p class="text-sm text-gray-500 mt-1">J'ai présenté mes travaux à des publics mixtes à Madrid et animé des sessions IA pour des élèves de primaire. Vulgariser, c'est comprendre vraiment.</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 p-4 rounded-xl bg-gray-50 border border-gray-100">
+            <div class="shrink-0 mt-0.5" style={`color: ${siteConfig.accentColor}`}>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0 -3 -3.85"/></svg>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-800">Esprit d'équipe</p>
+              <p class="text-sm text-gray-500 mt-1">Pair programming, revues de code,<br>projets interdisciplinaires, animation de club sportif.<br>Je travaille aussi bien seul qu'en équipe.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-2">
           <div class="flex flex-wrap gap-3">
             {
               siteConfig.skills.map((skill) => (
