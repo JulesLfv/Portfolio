@@ -143,7 +143,6 @@ export const siteConfig = {
       achievements: [
         "Cours complémentaires : Mathématiques en Python, Communication scientifique.",
         "Interview d'un professeur d'université dans le cadre du module communication.",
-        "Conception du modèle de données et de la base de données pour un laboratoire de recherche.",
         "Animation d'une session pédagogique sur l'IA en biologie pour des élèves de primaire.",
         "Conception d'une application collaborative pour réduire le gaspillage alimentaire.",
       ],
